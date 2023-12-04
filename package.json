@@ -1,0 +1,78 @@
+{
+  "name": "@ali/banma-fusion-form",
+  "version": "1.3.1",
+  "description": "基于Fusion Form二次封装",
+  "files": [
+    "demo/",
+    "es/",
+    "lib/",
+    "build/"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "sideEffects": [
+    "dist/*",
+    "*.scss",
+    "*.less",
+    "*.css"
+  ],
+  "scripts": {
+    "start": "build-scripts start",
+    "build": "build-scripts build",
+    "test": "build-scripts test",
+    "prepublishOnly": "npm run build",
+    "f2elint-scan": "f2elint scan",
+    "f2elint-fix": "f2elint fix",
+    "release": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "keywords": [
+    "fusion",
+    "react",
+    "component"
+  ],
+  "devDependencies": {
+    "@alifd/theme-3": "^0.6.0",
+    "@commitlint/cli": "^17.2.0",
+    "@types/lodash-es": "^4.17.7",
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.0",
+    "build-plugin-component": "^1.12.0",
+    "build-plugin-fusion": "^0.1.23",
+    "build-scripts": "^1.3.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "f2elint": "^2.2.1",
+    "moment": "^2.29.4",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-router-dom": "^5.3.4"
+  },
+  "peerDependencies": {
+    "@alifd/next": "^1.25.44",
+    "moment": "latest",
+    "react": "^16 || ^17",
+    "react-dom": "^16 || ^17"
+  },
+  "componentConfig": {
+    "name": "banma-fusion-form",
+    "title": "",
+    "category": ""
+  },
+  "publishConfig": {
+    "registry": "https://registry.anpm.alibaba-inc.com"
+  },
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "f2elint commit-file-scan",
+      "commit-msg": "f2elint commit-msg-scan"
+    }
+  },
+  "homepage": "https://unpkg.alibaba-inc.com/@ali/banma-fusion-form@1.3.1/build/index.html",
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "lodash-es": "^4.17.21"
+  },
+  "repository": "git@gitlab.alibaba-inc.com:banma-f2e/fusion-form.git"
+}
