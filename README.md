@@ -24,7 +24,7 @@ npm install banma-fusion-form
 | parseName  | 是否将name中.的字符串转换成对象，表单项items存在dynamic且未使用filed属性时必须设置true | 否 |  Boolean   |   false     |      |
 | children  | 自定义 | 否 |  ReactNode   |        |      |
 
-其他属性参考<a href="https://done.alibaba-inc.com/dsm/85526/components/detail/form?themeid=44903&tabActiveKey=component#Form" target="_blank">Fusion Form</a>
+其他属性参考<a href="https://fusion.design/pc/component/form?themeid=2" target="_blank">Fusion Form</a>
 
 ### ResponsiveGrid
 | 参数名 | 说明 | 必填 | 类型 | 默认值 | 备注 |
@@ -68,4 +68,4 @@ npm install banma-fusion-form
 | maxDate  | 最大日期，type=date、dateRange有效 | 否 |  Dayjs   |        |      |
 | singleLine  | 一行多列情况下(columns > 1)，设置当前项是否单独一行显示 | 否 |  Boolean   |        |      |
 
-其他属性参考<a href="https://done.alibaba-inc.com/dsm/85526/components/detail/form?themeid=44903&tabActiveKey=component#Form%20Item" target="_blank">Fusion Form.Item</a>
+其他属性参考<a href="https://fusion.design/pc/component/form?themeid=2%20Item" target="_blank">Fusion Form.Item</a>
