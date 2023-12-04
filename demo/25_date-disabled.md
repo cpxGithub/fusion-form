@@ -11,7 +11,7 @@ import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { Icon, Form } from '@alifd/next';
 import dayjs from 'dayjs';
-import BanmaForm from '@ali/banma-fusion-form';
+import BanmaForm from 'banma-fusion-form';
 import '@alifd/theme-3/variables.css';
 import '@alifd/theme-3/dist/next.css';
 

@@ -9,7 +9,7 @@ description: {date: '2023-4-13'}
 ```jsx
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import Form from '@ali/banma-fusion-form';
+import Form from 'banma-fusion-form';
 import '@alifd/theme-3/variables.css';
 import '@alifd/theme-3/dist/next.css';
 

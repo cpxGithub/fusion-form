@@ -6,10 +6,10 @@
 
 **备注**： 日期、时间类型内部使用的组件是DatePicker2、TimePicker2组件
 ## 使用
-@ali/banma-fusion-form
+banma-fusion-form
 ### 安装
 ```bash
-npm install @ali/banma-fusion-form
+npm install banma-fusion-form
 ```
 ## API
 

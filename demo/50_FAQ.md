@@ -15,6 +15,6 @@ label宽度设置通过属性labelCol设置，默认设置{fixedSpan: 5}，如�
 
 通过如下方式引入表单项ts定义
 ```
-import { FormItemProps } from '@ali/banma-fusion-form/es/types';
+import { FormItemProps } from 'banma-fusion-form/es/types';
 const formItems: FormItemProps[] = [];
 ```

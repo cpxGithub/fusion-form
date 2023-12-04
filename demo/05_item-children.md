@@ -10,7 +10,7 @@ description: {date: '2023-4-12'}
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { Rating, Upload, Button } from '@alifd/next';
-import Form from '@ali/banma-fusion-form';
+import Form from 'banma-fusion-form';
 
 import '@alifd/theme-3/variables.css';
 import '@alifd/theme-3/dist/next.var.css';
