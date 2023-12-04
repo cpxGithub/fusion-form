@@ -1,5 +1,5 @@
 {
-  "name": "@ali/banma-fusion-form",
+  "name": "banma-fusion-form",
   "version": "1.3.1",
   "description": "基于Fusion Form二次封装",
   "files": [
@@ -59,9 +59,6 @@
     "title": "",
     "category": ""
   },
-  "publishConfig": {
-    "registry": "https://registry.anpm.alibaba-inc.com"
-  },
   "license": "MIT",
   "husky": {
     "hooks": {
@@ -69,10 +66,13 @@
       "commit-msg": "f2elint commit-msg-scan"
     }
   },
-  "homepage": "https://unpkg.alibaba-inc.com/@ali/banma-fusion-form@1.3.1/build/index.html",
+  "homepage": "https://github.com/cpxGithub/fusion-form.git@1.3.1/build/index.html",
   "dependencies": {
     "classnames": "^2.3.2",
     "lodash-es": "^4.17.21"
   },
-  "repository": "git@gitlab.alibaba-inc.com:banma-f2e/fusion-form.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cpxGithub/fusion-form.git"
+  }
 }
